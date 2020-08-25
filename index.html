@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Tin Tức </title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="shortcut icon" type="image/png" href="./image/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="dt-header">
+        <div class="dt-header__content">
+            <h1 class="dt-header__logo">
+                <a title="Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí"
+                    href="https://dantri.com.vn/">
+                    <img src="./image/logo.png"
+                        alt="Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí">
+                </a>
+            </h1>
+            <ul class="dt-header__menu">
+                <li>
+                    <i class="fa fa-tv"></i>
+                </li>
+                <li>
+                    <i class="fa fa-search"></i>
+                </li>
+                <li>
+                    <i class="fa fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="site-menu">
+            <ul class="site-menu__list">
+                <li>
+                    <a title="Video" href="https://dantri.com.vn/video-page.htm">Video</a>
+                </li>
+
+                <li>
+                    <a title="Sự kiện" href="https://dantri.com.vn/su-kien.htm">Sự kiện</a>
+                </li>
+
+                <li>
+                    <a title="Xã hội" href="https://dantri.com.vn/xa-hoi.htm">Xã hội</a>
+                    <ul>
+                        <li> <a title="Chính trị" href="https://dantri.com.vn/xa-hoi/chinh-tri.htm">Chính trị</a>
+                        </li>
+                        <li> <a title="Phóng sự - Ký sự" href="https://dantri.com.vn/xa-hoi/phong-su-ky-su.htm">Phóng sự
+                                - Ký sự</a></li>
+                        <li> <a title="Giao thông" href="https://dantri.com.vn/xa-hoi/giao-thong.htm">Giao thông</a>
+                        </li>
+                        <li> <a title="Môi trường" href="https://dantri.com.vn/xa-hoi/moi-truong.htm">Môi trường</a>
+                        </li>
+                        <li><a title="Hồ sơ" href="https://dantri.com.vn/xa-hoi/ho-so.htm">Hồ sơ</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Thế giới" href="https://dantri.com.vn/the-gioi.htm">Thế giới</a>
+                    <ul>
+                        <li> <a title="Châu á" href="https://dantri.com.vn/the-gioi/chau-a.htm">Châu á</a> </li>
+                        <li> <a title="Eu & Nga" href="https://dantri.com.vn/the-gioi/eu-nga.htm">EU & Nga</a> </li>
+                        <li> <a title="Châu Mỹ" href="https://dantri.com.vn/the-gioi/chau-my.htm">Châu Mỹ</a> </li>
+                        <li> <a title="Điểm nóng" href="https://dantri.com.vn/the-gioi/diem-nong.htm">Điểm nóng</a>
+                        </li>
+                        <li> <a title="Tư liệu" href="https://dantri.com.vn/the-gioi/tu-lieu.htm">Tư liệu</a> </li>
+                        <li> <a title="Kiều bào" href="https://dantri.com.vn/the-gioi/kieu-bao.htm">Kiểu bào</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Thể thao" href="https://dantri.com.vn/the-thao.htm">Thể thao</a>
+                    <ul>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/the-thao-trong-nuoc.htm">Thể thao
+                                trong
+                                nước</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/the-thao-quoc-te.htm">Thể thao quốc
+                                tế</a>
+                        </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/bong-da-trong-nuoc.htm">Bóng đá trong
+                                nước</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/chau-au.htm">Châu Âu</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/bong-da-anh.htm">Bóng đá Anh</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/bong-da-tbn.htm">Bóng đá TBN</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/tennis.htm">Tennis</a> </li>
+                        <li> <a title="" href="https://dantri.com.vn/the-thao/vo-vua.htm">Cờ vua</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="An sinh" href="https://dantri.com.vn/an-sinh.htm">An sinh</a>
+                    <ul>
+                        <li> <a title="" href="">Chính sách</a> </li>
+                        <li> <a title="" href="">Việc làm</a> </li>
+                        <li> <a title="" href="">Đào tạo</a> </li>
+                        <li> <a title="" href="">Gói an sinh 62.000 tỷ đồng</a> </li>
+                        <li> <a title="" href="">Xuất khẩu lao động</a> </li>
+                        <li> <a title="" href="">Chúng tôi nói</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Sức khỏe" href="https://dantri.com.vn/suc-khoe.htm">Sức khỏe</a>
+                    <ul>
+                        <li> <a title="" href="">Ung thư</a> </li>
+                        <li> <a title="" href="">Kiến thức</a> </li>
+                        <li> <a title="" href="">Tư vấn</a> </li>
+                        <li> <a title="" href="">Làm đẹp</a> </li>
+                        <li> <a title="" href="">Ngày thầy thuốc Việt Nam</a> </li>
+                        <li> <a title="" href="">Đại dịch Covid-19</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Nhân ái" href="https://dantri.com.vn/tam-long-nhan-ai.htm">Nhân ái</a>
+                    <ul>
+                        <li> <a title="" href="">Danh sách ủng hộ</a> </li>
+                        <li> <a title="" href="">Danh sách kết chuyển</a> </li>
+                        <li> <a title="" href="">Hoàn cảnh</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Kinh doanh" href="https://dantri.com.vn/kinh-doanh.htm">Kinh doanh</a>
+                    <ul>
+                        <li> <a title="" href="">Tài chính-Đầu tư</a> </li>
+                        <li> <a title="" href="">Thị Trường</a> </li>
+                        <li> <a title="" href="">Doanh nghiệp</a> </li>
+                        <li> <a title="" href="">Khởi nghiệp</a> </li>
+                        <li> <a title="" href="">Bảo vệ NTD</a> </li>
+                        <li> <a title="" href="">Bảo hiểm</a> </li>
+                        <li> <a title="" href="">Quốc tế</a> </li>
+                        <li> <a title="" href="">Nhà đất</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Bất động sản" href="https://dantri.com.vn/bat-dong-san.htm">Bất động sản</a>
+                    <ul>
+                        <li> <a title="" href="">Dự án</a> </li>
+                        <li> <a title="" href="">Thị trường</a> </li>
+                        <li> <a title="" href="">Nhịp sống đô thị</a> </li>
+                        <li> <a title="" href="">Sống xanh</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Giáo dục" href="https://dantri.com.vn/giao-duc-khuyen-hoc.htm">Giáo dục</a>
+                    <ul>
+                        <li> <a title="" href="">Tin tuyển sinh</a> </li>
+                        <li> <a title="" href="">Khuyến học</a> </li>
+                        <li> <a title="" href="">Gương sáng</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Văn hóa" href="https://dantri.com.vn/van-hoa.htm">Văn hóa</a>
+                    <ul>
+                        <li> <a title="" href="">Đời sống văn hoá</a> </li>
+                        <li> <a title="" href="">Điện ảnh</a> </li>
+                        <li> <a title="" href="">Âm nhạc</a> </li>
+                        <li> <a title="" href="">Văn học</a> </li>
+                        <li> <a title="" href="">Sân khấu-Dân gian</a> </li>
+                        <li> <a title="" href="">Hạt giống tâm hồn</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Giải trí" href="https://dantri.com.vn/giai-tri.htm">Giải trí</a>
+                    <ul>
+                        <li> <a title="" href="">Sao Việt</a> </li>
+                        <li> <a title="" href="">Hollywood</a> </li>
+                        <li> <a title="" href="">Châu Á</a> </li>
+                        <li> <a title="" href="">Thời trang</a> </li>
+                        <li> <a title="" href="">Xem-Ăn-Chơi</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Du lịch" href="https://dantri.com.vn/du-lich.htm">Du lịch</a>
+                    <ul>
+                        <li> <a title="" href="">Tin tức</a> </li>
+                        <li> <a title="" href="">Khám phá</a> </li>
+                        <li> <a title="" href="">Món ngon - Điểm đẹp</a> </li>
+                        <li> <a title="" href="">Tour hay - Khuyến mãi</a> </li>
+                        <li> <a title="" href="">Video - Ảnh</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Pháp luật" href="https://dantri.com.vn/phap-luat.htm">Pháp luật</a>
+                </li>
+
+                <li>
+                    <a title="Nhịp sống trẻ" href="https://dantri.com.vn/nhip-song-tre.htm">Nhịp sống trẻ</a>
+                    <ul>
+                        <li> <a title="" href="">Người Việt trẻ</a> </li>
+                        <li> <a title="" href="">Teen đẹp</a> </li>
+                        <li> <a title="" href="">Phóng sự trẻ</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Sức mạnh số" href="https://dantri.com.vn/suc-manh-so.htm">Sức mạnh số</a>
+                    <ul>
+                        <li> <a title="" href="">Máy tính - Mạng</a> </li>
+                        <li> <a title="" href="">Di động - Viễn thông</a> </li>
+                        <li> <a title="" href="">Điện tử tiêu dùng</a> </li>
+                        <li> <a title="" href="">Nghe nhìn</a> </li>
+                        <li> <a title="" href="">Phần mềm - Bảo mật</a> </li>
+                        <li> <a title="" href="">Thủ thuật - Mẹo vặt</a> </li>
+                        <li> <a title="" href="">Thị trường công nghệ</a> </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a title="Xe" href="https://dantri.com.vn/o-to-xe-may.htm">Xe</a>
+                    <ul>
+                        <li> <a title="" href="">Thị trường xe</a> </li>
+                        <li> <a title="" href="">Bảng giá ô tô</a> </li>
+                        <li> <a title="" href="">Văn hoá xe</a> </li>
+                        <li> <a title="" href="">Tư vấn xe</a> </li>
+                        <li> <a title="" href="">Đua xe</a> </li>
+                        <li> <a title="" href="">Giá xe</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="menu">
+        <section class="dt-section">
+            <a class="menu-image" title="Gợi ý đáp án môn Giáo dục công dân: Thí sinh tự tin điểm cao"
+                href="https://dantri.com.vn/giao-duc-khuyen-hoc/goi-y-dap-an-mon-giao-duc-cong-dan-thi-sinh-tu-tin-gat-diem-cao-20200810093236054.htm"
+                style="font-weight: bold;">Gợi
+                ý đáp án môn Giáo dục công dân: Thí sinh tự tin điểm cao</a>
+            <br><a
+                href="https://dantri.com.vn/giao-duc-khuyen-hoc/goi-y-dap-an-mon-giao-duc-cong-dan-thi-sinh-tu-tin-gat-diem-cao-20200810093236054.htm"><img
+                    src="./image/anh.jpg" alt="Gợi ý đáp án môn Giáo dục công dân: Thí sinh tự tin điểm cao"></a>
+            <p>
+                <b> Khó có "mưa" điểm 10 ở bài thi tổ hợp Khoa học tự nhiêu </b> (Dân trí) - Dự kiến phổ điểm chủ yếu
+                của bài thi tổ hợp từ 5-7 điểm. Ở môn Vật lý và Sinh học, mức 8-9 đ iểm sẽ ít có "mưa" điểm 10 vì sự
+                phân hoá của đề khá cao.
+                <br><a class="time" href="https://dantri.com.vn/tuyen-sinh.htm">Tuyển sinh | 12 phút trước</a>
+            </p>
+        </section>
+        <div class="dt-menu-body">
+            <section class="dt-section">
+                <a class="menu-image" title="Thêm 2 bệnh nhân Covid-19 tử vong"
+                    href="https://dantri.com.vn/suc-khoe/them-2-benh-nhan-covid-19-tu-vong-20200810085543682.htm"
+                    style="font-weight: bold;">Thêm 2 bệnh Covid-19 tử vong.</a>
+                <br> <img src="image/anh1.jpg" alt="ảnh khám bác sỹ chuẩn đoán.">
+                <p>
+                    (Dân trí)- Sáng 10/8, Bộ Y tế công bố thêm 2 ca mắc Covid-19 tử vong. Đến nay, Việt Nam ghi nhận 13
+                    trường hợp tử vong do dịch bệnh này.
+                    <br><a class="time" href="https://dantri.com.vn/suc-khoe.htm">Sức khoẻ | 4 giờ trước</a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="4 bệnh nhân Covid-19 đầu tiên ở ổ dịch Đã nẵng khởi bệnh"
+                    href="https://dantri.com.vn/suc-khoe/4-benh-nhan-covid-19-dau-tien-o-o-dich-da-nang-khoi-benh-20200810114849449.htm"
+                    style="font-weight: bold;">4
+                    bệnh nhân Covid-19 đầu tiên ở ổ dịch Đã nẵng khởi bệnh.</a>
+                <br> <img src="image/anh2.jpg" alt="ảnh bác sỹ lấy mẫu sét nghiệm">
+                <p>
+                    (Dân trí) - Ngày 10/8, Giám đốc Bệnh viện Phổi Đà Nẵng cho biết, 4 bệnh nhân Covid-19 đầu tiên của
+                    thành phố trong đợt dịch này được công bố khỏi bệnh.
+                    <br><a class="time" href="https://dantri.com.vn/suc-khoe.htm"> Sức khỏe | 2 giờ trước </a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Vì sao xe Trung Quốc giá rẻ, trang bị tận răng vẫn khó sống ở Việt Nam? "
+                    href="https://dantri.com.vn/suc-khoe/4-benh-nhan-covid-19-dau-tien-o-o-dich-da-nang-khoi-benh-20200810114849449.htm"
+                    style="font-weight: bold;">Vì
+                    sao xe Trung Quốc giá rẻ, "trang bị tận răng" vẫn "khó sống" ở Việt Nam?</a>
+                <br> <img src="image/anh3.jpg" alt="ảnh bác sỹ lấy mẫu sét nghiệm">
+                <p>
+                    (Dân trí) - Thị trường xe Việt chứng kiến sự đa dạng về xuất xứ các mẫu xe, nhiều nhất là xe Nhật,
+                    Hàn, Mỹ, EU... Trung Quốc dù là nước sản xuất xe lớn của thế giới nhưng xe nước này vẫn khó "sống" ở
+                    Việt Nam.
+                    <br><a class="time" href="https://dantri.com.vn/kinh-doanh.htm"> Kinh doanh | 5 giờ trước</a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Tin tức sự kiện" href="https://dantri.com.vn/xa-hoi.htm"
+                    style="font-weight: bold; color: #1a7900;">Tin tức sự kiện</a>
+                <p>
+                    <b> <a
+                            href="https://dantri.com.vn/xa-hoi/nguyen-tong-bi-thu-le-kha-phieu-nguoi-lanh-dao-dam-chiu-trach-nhiem-20200809233128406.htm">Nguyên
+                            Tổng Bí thư Lê khả Phiêu - người lãnh đạo dám chịu trách nhiệm!</a></b>
+                    <br> <a
+                        href="https://dantri.com.vn/xa-hoi/nguyen-tong-bi-thu-le-kha-phieu-nguoi-lanh-dao-dam-chiu-trach-nhiem-20200809233128406.htm">
+                        <img src="image/anh4.jpg" alt="ảnh bác sỹ lấy mẫu sét nghiệm"> </a>
+                    <br><a class="time" href="https://dantri.com.vn/chinh-tri.htm"> Chính trị | 6 giờ trước </a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Điện một giá: Gần 2.900 đồng/kWh, chuyên gia nói hơi cao, ai sẽ được lợi?"
+                    href="https://dantri.com.vn/kinh-doanh/dien-mot-gia-gan-2900-dongk-wh-chuyen-gia-noi-hoi-cao-ai-se-duoc-loi-20200811153054112.htm"
+                    style="font-weight: bold; color: #1a7900;">Kinh
+                    doanh </a>
+                <p>
+                    <b>Điện một giá: Gần 2.900 đồng/kWh, chuyên gia nói hơi cao, ai sẽ được lợi?</b>
+                    <br> <img src="image/anh5.jpg"
+                        alt="Điện một giá: Gần 2.900 đồng/kWh, chuyên gia nói hơi cao, ai sẽ được lợi?">
+                    <br> <a class="time" href="https://dantri.com.vn/chinh-tri.htm"> Chính trị | 5 giờ trước</a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Gửi em, cô gái của chị vừa trải qua kỳ thi quan trọng trong đời"
+                    href="https://dantri.com.vn/nhip-song-tre/gui-em-co-gai-cua-chi-vua-trai-qua-ky-thi-quan-trong-trong-doi-20200811085902079.htm"
+                    style="font-weight: bold; color: #1a7900;">Nhịp
+                    sống trẻ </a>
+                <p>
+                    <b>Gửi em, cô gái của chị vừa trải qua kỳ thi quan trọng trong đời.</b>
+                    <br> <img src="image/anh6.jpg"
+                        alt="Gửi em, cô gái của chị vừa trải qua kỳ thi quan trọng trong đời.">
+                    <br> <a class="time" href="https://dantri.com.vn/nhip-song-tre.htm"> Nhịp sống trẻ | 1 giờ trước</a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Vắng khách tới đại lý vì dịch bệnh, Nissan Philippines tung chiêu."
+                    href="https://dantri.com.vn/o-to-xe-may/vang-khach-toi-dai-ly-vi-dich-benh-nissan-philippines-tung-chieu-20200811115556409.htm"
+                    style="font-weight: bold; color: #1a7900;">Ô
+                    tô - Xe máy</a>
+                <p>
+                    <b> Vắng khách tới đại lý vì dịch bệnh, Nissan Philippines tung chiêu.</b>
+                    <br> <img src="image/anh7.jpg"
+                        alt="Vắng khách tới đại lý vì dịch bệnh, Nissan Philippines tung chiêu.">
+                    <br> <a class="time" href="https://dantri.com.vn/o-to-xe-may.htm"> Ô tô - Xe máy | 25 phút trước
+                    </a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Bà cựu Thứ trưởng ơi, xin đừng làm khó Thủ tướng nữa!"
+                    href="https://dantri.com.vn/blog/ba-cuu-thu-truong-oi-xin-dung-lam-kho-thu-tuong-nua-20200810045913401.htm"
+                    style="font-weight: bold; color: #1a7900;">Blog</a>
+                <p>
+                    <b> Bà cựu Thứ trưởng ơi, xin đừng làm khó Thủ tướng nữa!</b>
+                    <br> <img src="image/anh8.jpg" alt="Bà cựu Thứ trưởng ơi, xin đừng làm khó Thủ tướng nữa!">
+                    <br> <a class="time" href="https://dantri.com.vn/blog.htm"> Blog | 45 phút trước </a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image"
+                    title="Mỹ: Phụ huynh “đau đầu” lựa chọn hình thức học cho con em trong năm học tới."
+                    href="https://dantri.com.vn/du-hoc/my-phu-huynh-dau-dau-lua-chon-hinh-thuc-hoc-cho-con-em-trong-nam-hoc-toi-20200810001946796.htm"
+                    style="font-weight: bold; color: #1a7900;">Thế
+                    giới du học</a>
+                <p>
+                    <b> Mỹ: Phụ huynh “đau đầu” lựa chọn hình thức học cho con em trong năm học tới</b>
+                    <br> <img src="image/anh9.jpg"
+                        alt="Mỹ: Phụ huynh đau đầu lựa chọn hình thức học cho con em trong năm học tới.">
+                    <br> <a class="time" href="https://dantri.com.vn/du-hoc.htm"> Du học | 50 phút trước </a>
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <a class="menu-image" title="Cụ ông 90 tuổi công khai giới tính thật sau nhiều thập kỷ giữ bí mật."
+                    href="https://dantri.com.vn/chuyen-la/cu-ong-90-tuoi-cong-khai-gioi-tinh-that-sau-nhieu-thap-ky-giu-bi-mat-20200811072137970.htm"
+                    style="font-weight: bold; color: #1a7900;">Chuyện
+                    lạ</a>
+                <p>
+                    <b> Cụ ông 90 tuổi công khai giới tính thật sau nhiều thập kỷ giữ bí mật.</b>
+                    <br> <img src="image/anh10.jpg"
+                        alt="Cụ ông 90 tuổi công khai giới tính thật sau nhiều thập kỷ giữ bí mật.">
+                    <br> <a class="time" href="https://dantri.com.vn/chuyen-la.htm"> Chuyện lạ | 45 phút trước
+                </p>
+            </section>
+
+            <section class="dt-section">
+                <div class="dt-section-category">
+                    <article class="dt-article">
+                        <a class="menu-image-v2" title="the thao" href="https://dantri.com.vn/the-thao.htm">Thể thao</a>
+                        <p>
+                            <a
+                                href="https://dantri.com.vn/the-thao/messi-doi-roi-barcelona-trong-cuoc-gap-voi-hlv-koeman-20200821092423763.htm">
+                                <img src="./image/messi.jpg"
+                                    alt="Messi đòi rời Barcelona trong cuộc gặp với HLV Koeman">
+                            </a>
+                            <a href="https://dantri.com.vn/the-thao/messi-doi-roi-barcelona-trong-cuoc-gap-voi-hlv-koeman-20200821092423763.htm"
+                                style="font-weight: bold;font-size:18px;">
+                                Messi đòi rời Barcelona trong cuộc gặp với HLV Koeman</a>
+                            <br> <a class="time"> 2 giờ trước </a>
+                        </p>
+                    </article>
+                    <article class="dt-article">
+                        <div class="dt-article-img">
+                            <a
+                                href="https://dantri.com.vn/the-thao/psg-se-nhan-mua-tien-thuong-neu-danh-bai-bayern-munich-20200821094421099.htm">
+                                <img src="./image/psg.jpg" alt="PSG sẽ nhận mưa tiền thưởng nếu đánh bại Bayern Munich">
+                            </a>
+                        </div>
+                        <div class="dt-article-title">
+                            <p>
+                                <a
+                                    href="https://dantri.com.vn/the-thao/psg-se-nhan-mua-tien-thuong-neu-danh-bai-bayern-munich-20200821094421099.htm">
+                                    PSG sẽ nhận mưa "tiền thưởng" nếu đánh bại Bayern Munich </a>
+                                <br> <a class="time"> 3 giờ trước </a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="dt-article">
+                        <div class="dt-article-img">
+                            <a
+                                href="https://dantri.com.vn/the-thao/inter-milan-sevilla-thien-duong-vay-goi-20200820075916727.htm">
+                                <img src="./image/inter-milan.jpg" alt="Inter Milan - Sevilla: Thiên đường vẫy gọi">
+                            </a>
+                        </div>
+                        <div class="dt-article-title">
+                            <p>
+                                <a
+                                    href="https://dantri.com.vn/the-thao/inter-milan-sevilla-thien-duong-vay-goi-20200820075916727.htm">
+                                    Inter Milan - Sevilla: Thiên đường vẫy gọi </a>
+                                <br> <a class="time"> 4 giờ trước </a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="dt-article">
+                        <div class="dt-article-img">
+                            <a
+                                href="https://dantri.com.vn/the-thao/inter-milan-va-10-nam-mon-moi-cho-dinh-vinh-quang-20200820184532114.htm">
+                                <img src="./image/inter-2.jpg" alt="Inter Milan và 10 năm mòn mỏi chờ đỉnh vinh quang">
+                            </a>
+                        </div>
+                        <div class="dt-article-title">
+                            <p>
+                                <a
+                                    href="https://dantri.com.vn/the-thao/inter-milan-va-10-nam-mon-moi-cho-dinh-vinh-quang-20200820184532114.htm">
+                                    Inter Milan và 10 năm mòn mỏi chờ đỉnh vinh quang </a>
+                                <br> <a class="time"> 6 giờ trước </a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="dt-article">
+                        <div class="dt-article-img">
+                            <a
+                                href="https://dantri.com.vn/the-thao/vua-co-lich-so-bo-cua-fifa-thai-lan-da-muon-tranh-ngoi-sao-voi-j-league-20200820215110103.htm">
+                                <img src="./image/thailan.jpg"
+                                    alt="Vừa có lịch sơ bộ của FIFA, Thái Lan đã muốn tranh ngôi sao với J-League"> </a>
+                        </div>
+                        <div class="dt-article-title">
+                            <p>
+                                <a
+                                    href="https://dantri.com.vn/the-thao/vua-co-lich-so-bo-cua-fifa-thai-lan-da-muon-tranh-ngoi-sao-voi-j-league-20200820215110103.htm">
+                                    Vừa có lịch sơ bộ của FIFA, Thái Lan đã muốn tranh ngôi sao với J-League </a>
+                                <br> <a class="time"> 1 ngày trước </a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <footer class="dt-footer-section">
+                    <a class="icon-next icon-flex" title="the thao" href="https://dantri.com.vn/the-thao.htm"> Xem thêm <i class="fa fa-arrow-right le-v2"></i> </a>
+                </footer>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="dt-footer">
+        <div class="ft-v2">
+            <a title="Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí"
+                href="https://dantri.com.vn/">
+                <img src="./image/logo-footer.png"
+                    alt="Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí">
+            </a>
+        </div>
+
+        <p class="mt-3">Cơ quan của Bộ Lao động - Thương binh và Xã hội</p>
+        <p>Tổng biên tập: Phạm Tuấn Anh</p>
+        <p>
+            Giấy phép hoạt động báo điện tử Dân trí số 298/GP - BTTTT Hà Nội, ngày 15-07-2020.
+        </p>
+        <p>Tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội</p>
+        <p>
+            Điện thoại: <a href="tel:024-3736-6491">024-3736-6491</a>
+            Fax:
+            <a href="tel:024-3736-6491">024-3736-6491</a>
+        </p>
+        <p>
+            Email: <a href="mailto:info@dantri.com.vn">info@dantri.com.vn</a>. Website:
+            www.dantri.com.vn
+        </p>
+    </footer>
+
+    <button class="dt-back-to">
+        <a href="#" class="dt-back-to-top">
+            <i class="fa fa-arrow-up"></i></a>
+    </button>
+</body>
+
+</html>
