@@ -208,28 +208,22 @@ ul {
     font-size: 17px;
 }
 
-
-/* .dt-footer-section::before, .dt-footer-section::after {
-    content: " ";
-    display: table;
-}
-
-.dt-footer-section::after {
-    clear: both;
-} */
-
-.icon-next {
-    color: #1a7900;
-}
-
-.icon-flex{
+.dt-footer-section{
     display: flex;
+    border: 1px  solid #eee;
     align-items: center;
     justify-content: center;
-    border: 1px  solid #eee;
-    
-    font-size: 16px;
+    /* padding: 10px; */
+}
 
+.button-next{
+    color: #1a7900;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.le-v2{
+    margin-left: 3px;
 }
 
 .dt-footer {
