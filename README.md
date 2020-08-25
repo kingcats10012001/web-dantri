@@ -1,2 +1,2 @@
 # web-dantri
-thử web dân trí mobi
+Làm web dân trí cho mobi (Demo)
